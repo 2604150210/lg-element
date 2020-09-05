@@ -1,1 +1,1 @@
-# Lginput
+# Jalinput

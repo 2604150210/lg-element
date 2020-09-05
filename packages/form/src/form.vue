@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'LgForm',
+  name: 'JalForm',
   provide () {
     return {
       form: this

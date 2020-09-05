@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'LgFButton',
+  name: 'JalFButton',
   methods: {
     handleClick (event) {
       this.$emit('click', event)

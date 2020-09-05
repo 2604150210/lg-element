@@ -1,28 +1,28 @@
-import LgForm from '../'
-import LgFormItem from '../../formitem'
-import LgInput from '../../input'
-import LgButton from '../../button'
+import JalForm from '../'
+import JalFormItem from '../../formitem'
+import JalInput from '../../input'
+import JalButton from '../../button'
 
 export default {
-  title: 'LgForm',
-  component: LgForm
+  title: 'JalForm',
+  component: JalForm
 }
 
 export const Login = () => ({
-  components: { LgForm, LgFormItem, LgInput, LgButton },
+  components: { JalForm, JalFormItem, JalInput, JalButton },
   template: `
-    <lg-form class="form" ref="form" :model="user" :rules="rules">
-      <lg-form-item label="用户名" prop="username">
-        <!-- <lg-input v-model="user.username"></lg-input> -->
-        <lg-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></lg-input>
-      </lg-form-item>
-      <lg-form-item label="密码" prop="password">
-        <lg-input type="password" v-model="user.password"></lg-input>
-      </lg-form-item>
-      <lg-form-item>
-        <lg-button type="primary" @click="login">登 录</lg-button>
-      </lg-form-item>
-    </lg-form>
+    <jal-form class="form" ref="form" :model="user" :rules="rules">
+      <jal-form-item label="用户名" prop="username">
+        <!-- <jal-input v-model="user.username"></jal-input> -->
+        <jal-input :value="user.username" @input="user.username=$event" placeholder="请输入用户名"></jal-input>
+      </jal-form-item>
+      <jal-form-item label="密码" prop="password">
+        <jal-input type="password" v-model="user.password"></jal-input>
+      </jal-form-item>
+      <jal-form-item>
+        <jal-button type="primary" @click="login">登 录</jal-button>
+      </jal-form-item>
+    </jal-form>
   `,
   data () {
     return {
