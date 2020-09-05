@@ -1,8 +1,8 @@
 <template>
-  <div class="jal-steps">
-    <div class="jal-steps-line"></div>
+  <div class="jiailing-steps">
+    <div class="jiailing-steps-line"></div>
     <div
-      class="jal-step"
+      class="jiailing-step"
       v-for="index in count"
       :key="index"
       :style="{

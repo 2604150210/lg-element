@@ -3,7 +3,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "03-jalElement",
+  "name": "03-jiailingElement",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

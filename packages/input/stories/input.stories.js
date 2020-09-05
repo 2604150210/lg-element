@@ -7,7 +7,7 @@ export default {
 
 export const Text = () => ({
   components: { JalInput },
-  template: '<jal-input v-model="value"></jal-input>',
+  template: '<jiailing-input v-model="value"></jiailing-input>',
   data () {
     return {
       value: 'admin'
@@ -17,7 +17,7 @@ export const Text = () => ({
 
 export const Password = () => ({
   components: { JalInput },
-  template: '<jal-input type="password" v-model="value"></jal-input>',
+  template: '<jiailing-input type="password" v-model="value"></jiailing-input>',
   data () {
     return {
       value: '123456'
